@@ -1,0 +1,162 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*Newsletter and position start*/
+.news{
+	padding: 80px 0;
+	background-color: #f0f0f0;
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+
+.news_content{
+	text-align: center;
+}
+
+.nl_title{
+	margin: 0 0 60px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+}
+
+.nl_form{
+	margin: 0 auto;
+	width: 400px;
+	/*border: 1px solid;*/
+	position: relative;
+}
+
+.nl_input{
+	padding: 0 50px 0 10px;
+    width: 345px;
+    height: 45px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #626262;
+}
+.nl_input:focus {
+	outline: 0;
+}
+
+.nl_button{
+    background-color: transparent;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    border: none;
+    cursor: pointer;
+}
+.nl_button:focus {
+	outline: 0;
+}
+/*Newsletter and position end*/
+
+/*Flag start*/
+.n_flag{
+	padding: 80px 0;
+}
+.n_flag_content{
+	position: relative;
+}
+.n_flag_bg{
+	margin: 0 auto;
+	width: 600px;
+	height: 300px;
+	background-color: #006a4e;
+}
+.n_flag_center{
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #f42a41;
+	top: 50px;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+/*Flag end*/
+
+/*Position start*/
+.position{
+	padding: 80px 0;
+	background-color: #cdcdcd;
+}
+.pos_content{
+	min-height: 300px;
+	position: relative;
+	/*border: 1px solid;*/
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+.black{
+	background-color: black;
+	left: 0;
+	top: 0;
+}
+.green{
+	background-color: green;
+	right: 0;
+	top: 0;
+}
+.red{
+	left: 0;
+	right: 0;
+	top: 100px;
+	margin: 0 auto;
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+	left: 0;
+	bottom: 0;
+}
+.yellow{
+	background-color: yellow;
+	right: 0;
+	bottom: 0;
+}
+/*Position end*/
+
+/*Back to top start*/
+.bttop{}
+
+.bttop_content{}
+
+.bttop_btn{
+    padding: 10px;
+	border: 1px solid #626262;
+    text-transform: uppercase;
+    background-color: transparent;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.bttop_btn:hover {
+	color: white;
+	background-color: red;
+	border: 1px solid red;
+}
+.bttop_btn:focus {
+	outline: 0;
+}
+/*Back to top end*/
